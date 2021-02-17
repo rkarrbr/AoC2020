@@ -21,8 +21,6 @@ namespace AdventureOfCode2020
             while ((line = file.ReadLine()) != null)
             {
                 list.Add(int.Parse(line));
-                //System.Console.WriteLine(line);
-                //counter++;
             }
             foreach(var x in list)
             {
