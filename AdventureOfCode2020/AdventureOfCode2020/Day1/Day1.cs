@@ -37,6 +37,7 @@ namespace AdventureOfCode2020
             }
             Console.WriteLine("part1:" + maxVal);
 
+            bool res = false;
             foreach(var x in list)
             {
                 foreach(var y in list)
@@ -46,10 +47,15 @@ namespace AdventureOfCode2020
                         if(x+y+z == 2020)
                         {
                             Console.WriteLine("part2:" + x * y * z);
+                            res = true;
                             break;
                         }
                     }
+                    if(res)
+                            break;
                 }
+                if (res)
+                    break;
             }
         }
     }
