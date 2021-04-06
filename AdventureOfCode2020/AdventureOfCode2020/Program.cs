@@ -15,6 +15,8 @@ namespace AdventureOfCode2020
             var d3 = new Day3();
             d3.exec();
 
+            var d4 = new Day4();
+            d4.exec();
         }
     }
 }
