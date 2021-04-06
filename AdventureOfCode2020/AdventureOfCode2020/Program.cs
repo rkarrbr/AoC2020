@@ -20,6 +20,12 @@ namespace AdventureOfCode2020
 
             var d5 = new Day5();
             d5.exec();
+
+            var d6_1 = new Day6pt1();
+            d6_1.exec();
+
+            var d6_2 = new Day6pt2();
+            d6_2.exec();
         }
     }
 }
